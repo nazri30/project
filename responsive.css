@@ -15,7 +15,7 @@
         font-size: 30px;width: 100%;
     }
     .card-contact {
-        width: 100%;
+        width: 50%;
         height: auto;
         padding: 52px 48px;
         margin-top: 42px;
@@ -37,6 +37,12 @@
 @media screen and (max-width : 576px) {
     .hero-tagline h1 {
         line-height: 52px;
+    }
+    .card-contact {
+        width: 50%;
+        height: auto;
+        padding: 52px 48px;
+        margin-top: 42px;
     }
     h2 {
         font-size: 34px;
@@ -69,6 +75,16 @@
     .input-cari .form-control {
         height: 60px !important;
 
+    }
+    footer{
+        margin-top: 650px;
+        padding-top: 30px;
+    }
+    footer a {
+        font-size: 10px;
+    }
+    .akhir {
+        color: white;
     }
 }
 @media screen and (max-width : 350px) {
